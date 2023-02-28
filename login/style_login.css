@@ -301,6 +301,7 @@ input:hover {
     width: 60%;
   }
   body {
+    overflow: scroll;
     overflow-x: hidden;
 
   }
@@ -353,6 +354,7 @@ input:hover {
   }
   body {
     overflow-x: hidden;
+    overflow: scroll;
 
   }
   .login {
