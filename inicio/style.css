@@ -22,7 +22,7 @@ main {
 }
 
 body {
-  overflow: hidden;
+  overflow: scroll;
   width: 100vw;
   min-height: 100vh;
 }
