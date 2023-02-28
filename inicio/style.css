@@ -988,7 +988,9 @@ span {
     width: 10rem;
     font-size: 62.5%;
   }
-
+  body{
+    overflow: scroll;
+  }
   header {
     height: 9rem;
   }
@@ -1011,7 +1013,7 @@ span {
   .logo {
     margin: 2rem 0;
   }
-
+ 
   .botaoMain {
     width: 20rem;
     height: 5.5rem;
@@ -1024,32 +1026,6 @@ span {
     /* padding-bottom: 2.4rem;
     padding-right: 10rem; */
   }
-  /* .p1 {
-    padding-left: 29rem;
-    position: relative;
-    top: 1rem;
-  } */
-  /* .imghtml {
-    margin-left: 34rem;
-  } */
-  /* .p1Box1 { */
-    /* margin-right: 13rem;
-    margin-left: 13rem; */
-    /* position: relative;
-    left: 5rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-size: 5rem;
-  } */
-/* 
-  .box1 button {
-    width: 15rem;
-    height: 4rem;
-    position: relative;
-    top: 9.2rem;
-    left: 15rem;
-  } */
 
   .box2 {
     width: 0rem;
