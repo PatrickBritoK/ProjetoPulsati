@@ -243,6 +243,7 @@ input:hover {
     height: 100%;
   }
   body {
+    overflow-x: hidden;
     overflow: scroll;
   }
   header{
@@ -299,7 +300,10 @@ input:hover {
     font-size: 50%;
     width: 60%;
   }
+  body {
+    overflow-x: hidden;
 
+  }
   .nav {
     display: none;
   }
@@ -347,7 +351,10 @@ input:hover {
   html{
     font-size:62.5%
   }
+  body {
+    overflow-x: hidden;
 
+  }
   .login {
     display: flex;
     align-items: center;
