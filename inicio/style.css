@@ -702,7 +702,7 @@ span {
   }
 }
 
-@media screen and (min-width: 401px) and (max-width: 730px) {
+@media screen and (min-width: 321px) and (max-width: 730px) {
   html {
     background-image: url(Assets/fundo.jpg);
     background-position: center;
