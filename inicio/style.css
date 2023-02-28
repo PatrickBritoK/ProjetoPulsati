@@ -752,8 +752,8 @@ span {
     gap: 3rem;
   }
   .box1 {
-    width: 50rem;
-    height: 55rem;
+    width: 40rem;
+    height: 45rem;
     padding-bottom: 2.4rem;
     padding-right: 10rem;
   }
@@ -780,13 +780,13 @@ span {
     width: 15rem;
     height: 4rem;
     position: relative;
-    top: 4.7rem;
-    left: 10rem;
+    bottom: 0.2rem;
+    left: 5rem;
   }
 
   .box2 {
-    width: 50rem;
-    height: 55rem;
+    width: 40rem;
+    height: 45rem;
     padding-bottom: 5rem;
     padding-right: 10rem;
   }
@@ -810,12 +810,12 @@ span {
     width: 15rem;
     height: 4rem;
     position: relative;
-    top: 7.8rem;
-    left: 10rem;
+    top: 2.8rem;
+    left: 5rem;
   }
   .box3 {
-    width: 50rem;
-    height: 55rem;
+    width: 40rem;
+    height: 45rem;
     padding-bottom: 6.3rem;
     padding-right: 10rem;
   }
@@ -832,14 +832,14 @@ span {
   }
   .imgjs {
     margin-right: 6.1rem;
-    margin-left: 22.6rem;
+    margin-left: 18rem;
   }
   .box3 button {
     width: 15rem;
     height: 4rem;
     position: relative;
-    top: 10rem;
-    left: 10rem;
+    top: 2.8rem;
+    left: 5rem;
   }
 }
 
