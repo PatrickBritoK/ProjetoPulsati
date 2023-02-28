@@ -285,6 +285,8 @@ input:hover {
   .icons-card{
     width: 2rem;
     height: 2rem;
+    position: relative;
+    bottom: 12rem;
   }
 
   .btn-login{
