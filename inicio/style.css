@@ -1089,3 +1089,108 @@ span {
     left: 15rem;
   }
 }
+@media screen and (min-width: 2800px) {
+  html {
+    background-image: url(Assets/fundo.jpg);
+    background-position: center;
+    height: 200rem;
+    width: 10rem;
+    font-size: 62.5%;
+  }
+ 
+  header {
+    height: 9rem;
+  }
+
+  .nav {
+    font-size: 2.5rem;
+  }
+
+  .acessar button {
+    width: 13rem;
+    height: 3rem;
+  }
+
+  .cadastro {
+    width: 15rem;
+    height: 4rem;
+    font-size: 0.5rem;
+  }
+
+  .logo {
+    margin: 2rem 0;
+  }
+  .textoMain {
+    margin-top: 2rem;
+  }
+  .botaoMain {
+    width: 20rem;
+    height: 5.5rem;
+    font-size: 2rem;
+  }
+
+  .box1 {
+    width: 80em;
+    height: 65rem;
+    /* padding-bottom: 2.4rem;
+    padding-right: 10rem; */
+  }
+
+  .box2 {
+    width: 0rem;
+    height: 65rem;
+    padding-bottom: 5rem;
+    padding-right: 10rem;
+  }
+  .p2 {
+    padding-left: 29rem;
+    position: relative;
+    top: 5rem;
+  }
+  .p2Box2 {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    position: relative;
+    left: 5rem;
+  }
+  .imgcss {
+    margin-left: 27.4rem;
+  }
+  .box2 button {
+    width: 15rem;
+    height: 4rem;
+    position: relative;
+    top: 12.3rem;
+    left: 15rem;
+  }
+  .box3 {
+    width: 60rem;
+    height: 65rem;
+    padding-bottom: 6.3rem;
+    padding-right: 10rem;
+  }
+  .p3 {
+    padding-left: 29rem;
+    position: relative;
+    top: 5rem;
+  }
+  .p3Box3 {
+    font-size: 2.3rem;
+    text-align: center;
+    position: relative;
+    left: 5rem;
+  }
+  .imgjs {
+    position: relative;
+    left: 11.6rem;
+  }
+  .box3 button {
+    width: 15rem;
+    height: 4rem;
+    position: relative;
+    top: 14.8rem;
+    left: 15rem;
+  }
+}
