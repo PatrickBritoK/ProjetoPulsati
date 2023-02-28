@@ -713,6 +713,7 @@ span {
 
   body {
     overflow: scroll;
+    overflow-x: hidden;
   }
 
   .nav {
