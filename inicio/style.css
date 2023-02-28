@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Helvetica, Arial, sans-serif
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 html {
@@ -14,10 +14,9 @@ html {
   z-index: 0;
   width: 100vw;
   height: 100vh;
-  
 }
 
-main{
+main {
   width: 100vw;
   min-height: 100vh;
 }
@@ -79,7 +78,6 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  text-decoration: none;
   transition: 1s;
 }
 .acessar button {
@@ -143,12 +141,12 @@ main {
   /* padding-bottom: 10rem; */
 }
 
-.transparente { 
-   z-index: 0; 
-   background-color: rgba(0, 0, 0, 0.7); 
-   width: 100%; 
-   height: 100%; 
- }
+.transparente {
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
 
 .textoMain {
   z-index: 2;
@@ -228,11 +226,9 @@ span {
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-
 }
 
 .box1 {
-  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -576,8 +572,8 @@ span {
   body {
     overflow: scroll;
   }
-  
-  .header{
+
+  .header {
     height: 5rem;
     margin-top: 4rem;
   }
@@ -586,11 +582,11 @@ span {
     font-size: 1rem;
     margin-right: 9rem;
     display: none;
-    justify-content: space-around;   
+    justify-content: space-around;
   }
 
-  .transparente{
-    background-color: rgba(0, 0, 0, 0); 
+  .transparente {
+    background-color: rgba(0, 0, 0, 0);
   }
 
   .acessar button {
@@ -607,7 +603,6 @@ span {
   .logo {
     margin: 2rem 0;
   }
-  
 
   .box {
     flex-direction: column;
@@ -644,7 +639,6 @@ span {
     position: relative;
     top: 0.6rem;
     left: 5rem;
-    
   }
   .box2 {
     width: 40rem;
@@ -702,10 +696,9 @@ span {
     top: 3.2rem;
     left: 5rem;
   }
-  
 }
 
-@media screen and (min-width: 401px) and (max-width:730px) {
+@media screen and (min-width: 401px) and (max-width: 730px) {
   html {
     background-image: url(Assets/fundo.jpg);
     background-position: center;
@@ -722,11 +715,11 @@ span {
     font-size: 1rem;
     margin-right: 9rem;
     display: none;
-    justify-content: space-around;   
+    justify-content: space-around;
   }
 
-  .transparente{
-    background-color: rgba(0, 0, 0, 0); 
+  .transparente {
+    background-color: rgba(0, 0, 0, 0);
   }
 
   .acessar button {
@@ -743,12 +736,12 @@ span {
   .logo {
     margin: 2rem 0;
   }
-  
-  .botaoMain{
+
+  .botaoMain {
     width: 20rem;
     height: 5.5rem;
     font-size: 2rem;
-    }
+  }
 
   .box {
     flex-direction: column;
@@ -843,11 +836,9 @@ span {
     top: 10rem;
     left: 10rem;
   }
-  
 }
 
-@media screen and (min-width: 731px) and (max-width:1120px){
-
+@media screen and (min-width: 731px) and (max-width: 1120px) {
   html {
     background-image: url(Assets/fundo.jpg);
     background-position: center;
@@ -859,17 +850,17 @@ span {
   body {
     overflow: scroll;
   }
- 
-  header{
-   height: 8rem;
+
+  header {
+    height: 8rem;
   }
 
-  .nav{
+  .nav {
     font-size: 2rem;
   }
 
-  .transparente{
-    background-color: rgba(0, 0, 0, 0); 
+  .transparente {
+    background-color: rgba(0, 0, 0, 0);
   }
 
   .acessar button {
@@ -886,12 +877,12 @@ span {
   .logo {
     margin: 2rem 0;
   }
-  
-  .botaoMain{
+
+  .botaoMain {
     width: 20rem;
     height: 5.5rem;
     font-size: 2rem;
-    }
+  }
 
   .box {
     flex-direction: column;
@@ -950,7 +941,6 @@ span {
     left: 5rem;
   }
   .imgcss {
-
     margin-left: 27.4rem;
   }
   .box2 button {
@@ -988,14 +978,134 @@ span {
     top: 14.8rem;
     left: 15rem;
   }
-  
+}
 
+@media screen and(min-width:1121px) and (max-width: 1680px) {
+  html {
+    background-image: url(Assets/fundo.jpg);
+    background-position: center;
+    height: 200rem;
+    width: 10rem;
+    font-size: 62.5%;
+  }
 
+  header {
+    height: 9rem;
+  }
 
+  .nav {
+    font-size: 2.5rem;
+  }
 
+  .acessar button {
+    width: 13rem;
+    height: 3rem;
+  }
 
+  .cadastro {
+    width: 15rem;
+    height: 4rem;
+    font-size: 0.5rem;
+  }
 
+  .logo {
+    margin: 2rem 0;
+  }
 
+  .botaoMain {
+    width: 20rem;
+    height: 5.5rem;
+    font-size: 2rem;
+  }
 
+  .box1 {
+    width: 80em;
+    height: 65rem;
+    /* padding-bottom: 2.4rem;
+    padding-right: 10rem; */
+  }
+  /* .p1 {
+    padding-left: 29rem;
+    position: relative;
+    top: 1rem;
+  } */
+  /* .imghtml {
+    margin-left: 34rem;
+  } */
+  /* .p1Box1 { */
+    /* margin-right: 13rem;
+    margin-left: 13rem; */
+    /* position: relative;
+    left: 5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+  } */
+/* 
+  .box1 button {
+    width: 15rem;
+    height: 4rem;
+    position: relative;
+    top: 9.2rem;
+    left: 15rem;
+  } */
 
+  .box2 {
+    width: 0rem;
+    height: 65rem;
+    padding-bottom: 5rem;
+    padding-right: 10rem;
+  }
+  .p2 {
+    padding-left: 29rem;
+    position: relative;
+    top: 5rem;
+  }
+  .p2Box2 {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    position: relative;
+    left: 5rem;
+  }
+  .imgcss {
+    margin-left: 27.4rem;
+  }
+  .box2 button {
+    width: 15rem;
+    height: 4rem;
+    position: relative;
+    top: 12.3rem;
+    left: 15rem;
+  }
+  .box3 {
+    width: 60rem;
+    height: 65rem;
+    padding-bottom: 6.3rem;
+    padding-right: 10rem;
+  }
+  .p3 {
+    padding-left: 29rem;
+    position: relative;
+    top: 5rem;
+  }
+  .p3Box3 {
+    font-size: 2.3rem;
+    text-align: center;
+    position: relative;
+    left: 5rem;
+  }
+  .imgjs {
+    position: relative;
+    left: 11.6rem;
+  }
+  .box3 button {
+    width: 15rem;
+    height: 4rem;
+    position: relative;
+    top: 14.8rem;
+    left: 15rem;
+  }
 }
