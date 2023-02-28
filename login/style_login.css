@@ -260,15 +260,36 @@ input:hover {
 
   .card-right {
     width: 60%;
-  
-    margin-top: 40rem;
-    
+    height: 90rem;
+    margin-top: 30rem;
+    font-size: 40rem;
   }
-
+ .usuario label,
+ .senha label{
+    font-size: 3rem;
+  }
   .usuario input,
   .senha input {
     display: flex;
     width: 40vw;
+    height: 5rem;
+    font-size: 2rem;
+  }
+
+  span{
+    font-size: 2.5rem;
+  }
+
+  .icons-card{
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .btn-login{
+    width: 24rem;
+    height: 6rem;
+    font-size: 2rem;
+
   }
 }
 
@@ -288,28 +309,61 @@ input:hover {
 
   .card-right {
     width: 60%;
-    margin-top: 30rem;
+    height: 90rem;
+    margin-top: 9rem;
   }
+
+  .usuario label,
+  .senha label{
+     font-size: 2.5rem;
+   }
 
   .usuario input,
   .senha input {
     display: flex;
     width: 40vw;
+    height: 6.5rem;
+  }
+
+  .btn-login{
+    width: 24rem;
+    height: 6rem;
+    font-size: 2rem;
+  }
+
+  span{
+    font-size: 2rem;
+  }
+
+  .icons-card{
+    width:12rem;
+    height:8rem;
   }
 }
 
-@media screen and (min-width: 921px) and (max-width: 1600px) {
+@media screen and (min-width: 921px) and (max-width: 1690px) {
   
-  
+  html{
+    font-size:62.5%
+  }
+
   .login {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: row;
+    margin-top: 2rem;
   }
 
+
   .card-right {
-    width: 50%;
+    width: 40%;
+    height: 70rem;
+    margin-top: 2rem;
+  }
+
+  span{
+    font-size: 1.5rem;
   }
 }
