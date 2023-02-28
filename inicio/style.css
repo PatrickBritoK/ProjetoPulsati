@@ -22,7 +22,7 @@ main {
 }
 
 body {
-  overflow: scroll;
+  overflow: hidden;
   width: 100vw;
   min-height: 100vh;
 }
@@ -988,9 +988,7 @@ span {
     width: 10rem;
     font-size: 62.5%;
   }
-  body{
-    overflow: scroll;
-  }
+ 
   header {
     height: 9rem;
   }
