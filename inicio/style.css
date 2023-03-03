@@ -1027,14 +1027,16 @@ span {
     height: 5.5rem;
     font-size: 2rem;
   }
+  .box {
+    flex-direction: row;
+    gap: 3rem;
+  }
 
   .box1 {
     width: 80em;
     height: 65rem;
-    /* padding-bottom: 2.4rem;
-    padding-right: 10rem; */
   }
-
+  
   .box2 {
     width: 0rem;
     height: 65rem;
@@ -1093,63 +1095,95 @@ span {
     left: 15rem;
   }
 }
-@media screen and (min-width: 2800px) {
+
+@media screen and (min-width: 2800px) and (max-width:3000px) {
   html {
     background-image: url(Assets/fundo.jpg);
     background-position: center;
-    height: 200rem;
-    width: 10rem;
+    height: 330rem;
+    width: 1rem;
     font-size: 62.5%;
   }
- 
+ html {
+  overflow: hidden;
+ }
   header {
-    height: 9rem;
+    height: 10rem;
   }
-
+  .logo {
+    
+  }
   .nav {
     font-size: 2.5rem;
   }
-
   .acessar button {
-    width: 13rem;
-    height: 3rem;
+    width: 17rem;
+    height: 4rem;
+    font-size: 2.5rem;
   }
 
   .cadastro {
-    width: 15rem;
+    width: 17rem;
     height: 4rem;
-    font-size: 0.5rem;
   }
-
-  .logo {
-    margin: 2rem 0;
+  .cadastro button {
+    font-size: 2.5rem;
   }
-  .textoMain {
-    margin-top: 2rem;
+  h1 {
+    font-size: 5rem;
+  }
+  
+  h2 {
+    font-size: 5rem;
+  }
+  span{
+    font-size: 3rem;
   }
   .botaoMain {
-    width: 20rem;
-    height: 5.5rem;
-    font-size: 2rem;
+    width: 19rem;
+    height: 5rem;
+    font-size: 2.5rem;
   }
 
   .box1 {
-    width: 80em;
+    width: 70em;
     height: 65rem;
-    /* padding-bottom: 2.4rem;
-    padding-right: 10rem; */
+
+  }
+  
+  .imghtml {
+    margin-left: 34rem;
+  }
+  .p1Box1 {
+    font-size: 2.3rem;
+    margin-left: 2rem;
+    margin-right: 10rem;
+    position: relative;
+    left: 5rem;
+  }
+  .box1 button {
+    font-size: 2rem;
+    width: 19rem;
+    height: 5rem;
+    position: relative;
+    top: 10.6rem;
+    left: 13rem;
+  }
+  .p1{
+    position: relative;
+    bottom: 10rem;
   }
 
   .box2 {
-    width: 0rem;
+    width: 70em;
     height: 65rem;
     padding-bottom: 5rem;
     padding-right: 10rem;
   }
   .p2 {
-    padding-left: 29rem;
     position: relative;
-    top: 5rem;
+    right: 10rem;
+    bottom: 7rem;
   }
   .p2Box2 {
     font-size: 2.3rem;
@@ -1160,25 +1194,26 @@ span {
     left: 5rem;
   }
   .imgcss {
-    margin-left: 27.4rem;
+    margin-left: 32rem;
   }
   .box2 button {
-    width: 15rem;
-    height: 4rem;
+    font-size: 2rem;
+    width: 19rem;
+    height: 5rem;
     position: relative;
-    top: 12.3rem;
-    left: 15rem;
+    top: 12.5rem;
+    left: 18rem;
   }
   .box3 {
-    width: 60rem;
+    width: 70em;
     height: 65rem;
     padding-bottom: 6.3rem;
     padding-right: 10rem;
   }
   .p3 {
-    padding-left: 29rem;
     position: relative;
-    top: 5rem;
+    right: 10rem;
+    bottom: 7rem;
   }
   .p3Box3 {
     font-size: 2.3rem;
@@ -1188,13 +1223,14 @@ span {
   }
   .imgjs {
     position: relative;
-    left: 11.6rem;
+    left: 18rem;
   }
   .box3 button {
-    width: 15rem;
-    height: 4rem;
+    font-size: 2rem;
+    width: 19rem;
+    height: 5rem;
     position: relative;
-    top: 14.8rem;
-    left: 15rem;
+    top: 15.1rem;
+    left: 18rem;
   }
 }
